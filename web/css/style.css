@@ -1,12 +1,41 @@
+/*variaveis*/
+:root {
+  --primary-color: #213745;
+  --secondary-color: #f7efe2;
+  --tertiary-color: #fd4239;
+}
+
+/*configurações gerais*/
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.btn {
+  font-size: 0.875rem;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 4px solid var(--secondary-color);
+  padding: 12px 20px;
+}
+
+.btn:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+/*header*/
 .header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #213745;
+  background-color: var(--primary-color);
   padding: 15px 0;
 }
 
@@ -22,7 +51,7 @@ body {
 
 .header-menu ul li a {
   text-transform: uppercase;
-  color: #f7efe2;
+  color: var(--secondary-color);
   font-weight: bold;
   line-height: 20px;
   letter-spacing: 0.1em;
@@ -31,5 +60,48 @@ body {
 }
 
 .header-menu ul li a:hover {
-  color: #fd4239;
+  color: var(--tertiary-color);
+}
+
+/* intro*/
+.intro {
+  width: 100%;
+  height: 380px;
+  margin-top: 96px; /*distancia do header*/
+  background: url("../imagens/bg-intro.jpg") center/cover no-repeat;
+  text-align: center;
+  padding-top: 80px;
+  color: var(--secondary-color);
+}
+
+.intro h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.quote {
+  max-width: 20rem;
+  margin: 40px auto;
+}
+
+.quote p {
+  font-style: italic;
+}
+
+.quote p::before,
+.quote p::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--secondary-color);
+  margin: 14px auto 10px auto;
+}
+
+.quote cite {
+  font-style: normal;
+  font-size: 0.875rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
 }
