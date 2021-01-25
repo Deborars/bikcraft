@@ -1,11 +1,35 @@
-.grid-1 {
-  background-color: rebeccapurple;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.grid-2 {
-  background-color: red;
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #213745;
+  padding: 15px 0;
 }
 
-.grid-16 {
-  background-color: royalblue;
+.header-menu {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.header-menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.header-menu ul li a {
+  text-transform: uppercase;
+  color: #f7efe2;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  padding: 15px 0;
+}
+
+.header-menu ul li a:hover {
+  color: #fd4239;
 }
