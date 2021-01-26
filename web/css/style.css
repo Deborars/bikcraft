@@ -176,3 +176,32 @@ p {
 .call .btn:hover {
   border-color: var(--primary-color);
 }
+
+.portfolio {
+  background-color: var(--primary-color);
+}
+
+.portfolio .subtitle {
+  color: var(--secondary-color);
+}
+
+.portfolio .subtitle::after {
+  background-color: var(--secondary-color);
+}
+
+.portfolio-list li:last-child {
+  margin-top: 20px;
+}
+
+.portfolio p {
+  color: var(--secondary-color);
+}
+
+.portfolio .btn {
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.portfolio .btn:hover {
+  border-color: var(--tertiary-color);
+}
