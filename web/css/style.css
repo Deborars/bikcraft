@@ -30,6 +30,24 @@ p {
   color: var(--primary-color);
 }
 
+.subtitle {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin: 50px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.subtitle::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--primary-color);
+  margin: 8px auto 0 auto;
+}
+
 /*header*/
 .header {
   position: fixed;
@@ -37,6 +55,7 @@ p {
   width: 100%;
   background-color: var(--primary-color);
   padding: 15px 0;
+  z-index: 10;
 }
 
 .header-menu {
@@ -104,4 +123,56 @@ p {
   font-size: 0.875rem;
   letter-spacing: 0.1rem;
   font-weight: bold;
+}
+
+/*Produtos*/
+.products {
+  background-color: var(--secondary-color);
+}
+
+.products-list {
+  background-color: var(--tertiary-color);
+  text-align: center;
+}
+
+.products-icon {
+  background-color: var(--primary-color);
+  padding: 20px;
+}
+
+.products-list .subtitle {
+  font-size: 1.125rem;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.products-list p {
+  font-size: 0.875rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: var(--primary-color);
+  line-height: 20px;
+  padding: 0 20px 20px;
+}
+
+.call {
+  text-align: center;
+  clear: both;
+  padding: 20px;
+}
+
+.call p {
+  color: var(--primary-color);
+  margin-top: 20px;
+}
+
+.call .btn {
+  display: inline-block;
+  color: var(--primary-color);
+  border-color: var(--tertiary-color);
+  padding: 10px 30px;
+  margin-top: 20px;
+}
+
+.call .btn:hover {
+  border-color: var(--primary-color);
 }
