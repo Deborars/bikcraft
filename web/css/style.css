@@ -46,7 +46,7 @@ p {
 }
 
 .subtitle {
-  font-size: 1.5rem;
+  font-size: 24px;
   color: var(--primary-color);
   margin: 50px 0;
   text-align: center;
@@ -106,6 +106,34 @@ img {
 }
 
 /*
+=======================
+INTERNAL INTRO
+=======================
+*/
+.internal-intro {
+  margin-top: 92px;
+  width: 100%;
+  height: 140px;
+  color: var(--secondary-color);
+  padding-top: 30px;
+}
+
+.internal-intro h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.internal-intro h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--secondary-color);
+  margin: 4px auto 13px auto;
+}
+
+/*
 =====================
 HEADER
 =====================
@@ -157,12 +185,6 @@ INTRO
   text-align: center;
   padding-top: 80px;
   color: var(--secondary-color);
-}
-
-.intro h1 {
-  font-size: 3rem;
-  text-transform: uppercase;
-  font-weight: bold;
 }
 
 /*
