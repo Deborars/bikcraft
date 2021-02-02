@@ -63,6 +63,23 @@ p {
   margin: 8px auto 0 auto;
 }
 
+.internal-subtitle {
+  font-size: 24px;
+  color: var(--primary-color);
+  margin: 30px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.internal-subtitle::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--primary-color);
+  margin: 8px 0 12px;
+}
+
 img {
   display: block;
 }
@@ -172,6 +189,10 @@ HEADER
   color: var(--tertiary-color);
 }
 
+.header-menu ul li a.active-menu {
+  color: var(--tertiary-color);
+}
+
 /* 
 ==================
 INTRO
@@ -187,6 +208,12 @@ INTRO
   color: var(--secondary-color);
 }
 
+.intro h1 {
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 /*
 ================
 Produtos
@@ -294,6 +321,7 @@ QUALITY
 
 .quality-list {
   padding-top: 20px;
+  overflow: hidden;
 }
 
 .quality-list li {
