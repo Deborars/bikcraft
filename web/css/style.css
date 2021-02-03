@@ -132,13 +132,15 @@ INTERNAL INTRO
   width: 100%;
   height: 140px;
   color: var(--secondary-color);
-  padding-top: 30px;
+  padding-top: 20px;
+  text-align: center;
 }
 
 .internal-intro h1 {
   font-size: 36px;
   text-transform: uppercase;
   font-weight: bold;
+  padding-top: 10px;
 }
 
 .internal-intro h1:after {
