@@ -74,20 +74,64 @@
 .product-info ul li:nth-child(2) {
   margin-bottom: 0;
 }
-
+/*
+=================
+BUDGET
+=================
+*/
 .budget {
   background-color: #213745;
   color: #f7efe2;
-  margin-top: 40px;
-  padding-bottom: 40px;
+  margin-top: 60px;
+  padding: 40px 0;
 }
 
-.subtitle {
+.budget .subtitle {
   color: #f7efe2;
   font-weight: normal;
 }
 
-.form-field label,
-button {
+.budget .subtitle::after {
+  background-color: #f7efe2;
+}
+
+.budget-form {
+  padding-right: 60px;
+}
+
+.budget-form label {
   display: block;
+  color: #f7efe2;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+
+.budget-form input,
+.budget-form textarea {
+  width: 100%;
+  display: block;
+  background-color: #f7efe2;
+  border: 2px solid #fd4239;
+  padding: 5px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 10px;
+}
+
+.budget-form textarea {
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.budget-form .btn {
+  background-color: #fd4239;
+  border: 2px solid #f7efe2;
+  color: #f7efe2;
+  margin: 0;
+  padding: 10px 0 25px;
+  width: 120px;
+  vertical-align: auto;
 }
