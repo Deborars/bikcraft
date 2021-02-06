@@ -269,9 +269,11 @@ PORTFOLIO
 */
 .portfolio {
   background-color: var(--primary-color);
+  padding: 40px 0;
 }
 
 .portfolio .subtitle {
+  margin: 20px 0;
   color: var(--secondary-color);
 }
 
