@@ -127,13 +127,18 @@ BUDGET
 }
 
 .budget-form .btn {
-  background-color: #fd4239;
-  border: 2px solid #f7efe2;
-  color: #f7efe2;
+  background-color: #f7efe2;
+  border: 2px solid #fd4239;
+  color: #213745;
   margin: 0;
   padding: 10px 0 25px;
   width: 120px;
   vertical-align: auto;
+}
+
+.budget-form .btn:hover {
+  color: #f7efe2;
+  background-color: #213745;
 }
 
 .budget-data h3 {
