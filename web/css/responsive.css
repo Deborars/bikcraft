@@ -1,4 +1,17 @@
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+  .quality::after {
+    width: 0;
+  }
+
+  .quality-list li {
+    padding: 0 10px;
+  }
+
+  .footer-redes ul li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+  }
 }
 
 @media only screen and (max-width: 787px) {
@@ -32,9 +45,13 @@
 
   .intro {
     margin-top: 0;
-    padding-top: 20px;
+    padding-top: 40px;
     height: 420px;
     background: url("../imagens/image-respo-intro.png") center/cover no-repeat;
+  }
+
+  .intro h1 {
+    font-size: 36px;
   }
 
   .intro .btn {
@@ -45,5 +62,9 @@
   .intro .btn:hover {
     border-color: #213745;
     color: #213745;
+  }
+
+  .quality::after {
+    width: 0;
   }
 }
