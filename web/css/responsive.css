@@ -1,4 +1,5 @@
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+  /*quality*/
   .quality::after {
     width: 0;
   }
@@ -7,6 +8,7 @@
     padding: 0 10px;
   }
 
+  /*footer*/
   .footer-redes ul li {
     display: inline-block;
     width: 30px;
@@ -15,6 +17,11 @@
 }
 
 @media only screen and (max-width: 787px) {
+  /*innternal intro*/
+  .internal-intro {
+    margin-top: 0;
+  }
+
   .header {
     position: relative;
   }
@@ -43,6 +50,11 @@
     border-color: #fd4239;
   }
 
+  .header-menu ul li a.active-menu {
+    border-color: #fd4239;
+  }
+
+  /*Intro*/
   .intro {
     margin-top: 0;
     padding-top: 40px;
@@ -64,7 +76,19 @@
     color: #213745;
   }
 
+  /*quality*/
   .quality::after {
     width: 0;
+  }
+
+  .misson-about p {
+    font-size: 14px;
+    line-height: 25px;
+    padding-right: 0px;
+  }
+
+  .misson-about ul li {
+    font-size: 14px;
+    line-height: 30px;
   }
 }
