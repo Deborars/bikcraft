@@ -101,5 +101,6 @@
 }
 
 .contact-map {
+  display: inline-block;
   margin: 40px 0;
 }

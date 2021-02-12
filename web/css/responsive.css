@@ -167,4 +167,10 @@
   .budget-form {
     padding-right: 0px;
   }
+
+  /*contact*/
+  .contact-form {
+    padding-right: 0px;
+    margin-bottom: 40px;
+  }
 }
