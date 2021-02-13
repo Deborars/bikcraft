@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./css/contato.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <title>Bikcraft - Produtos</title>
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
   <body>
     <header class="header">
@@ -27,11 +30,11 @@
     </header>
     <section class="internal-intro contact">
       <div class="container">
-        <h1>Contato</h1>
-        <p>entre em contato com a gente</p>
+        <h1 data-anime="400" class="fadeInDown">Contato</h1>
+        <p data-anime="600" class="fadeInDown">entre em contato com a gente</p>
       </div>
     </section>
-      <section class="budget-contact">
+      <section class="budget-contact fadeInDown" data-anime="1200">
         <div class="container">
           <form class="grid-8 contact-form">
             <label for="name">Nome</label>
@@ -102,5 +105,8 @@
           </div>
         </div>
       </footer>
+
+      <script src="./js/plugin/simple-anime.js"></script>
+      <script src="./js/script.js"></script>
   </body>
 </html>

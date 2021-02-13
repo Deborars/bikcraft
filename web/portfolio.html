@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./css/portfolio.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <title>Bikcraft - Portfólio</title>
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
   <body>
     <header class="header">
@@ -27,12 +30,12 @@
     </header>
     <section class="internal-intro portfolio-intro">
       <div class="container">
-        <h1>Portfólio
+        <h1 data-anime="400" class="fadeInDown">Portfólio
         </h1>
-        <p>conheça os projetos que amamos mostrar</p>
+        <p data-anime="600" class="fadeInDown">conheça os projetos que amamos mostrar</p>
       </div>
     </section>
-    <section class="container">
+    <section class="container fadeInDown" data-anime="800">
       <blockquote class="portfolio-quote">
         <p>
           "No mundo atual,  a continua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte"  
@@ -91,5 +94,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="./js/plugin/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>
