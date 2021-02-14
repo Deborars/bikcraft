@@ -352,7 +352,7 @@ QUALITY
 }
 /*
 =====================
-spacer
+SPACER
 =====================
 */
 
@@ -416,6 +416,7 @@ FOOTER
   border-top-color: var(--tertiary-color);
 }
 
+/*CSS P/ JS*/
 .js [data-anime] {
   opacity: 0;
 }
