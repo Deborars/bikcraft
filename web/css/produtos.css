@@ -1,7 +1,7 @@
-.products {
+/*.products {
   background: url(../imagens/produtos/header-produtos.jpg) center/cover
     no-repeat;
-}
+}*/
 
 .item-product {
   padding-top: 60px;
@@ -133,7 +133,6 @@ BUDGET
   margin: 0;
   padding: 10px 0 25px;
   width: 120px;
-  vertical-align: auto;
 }
 
 .budget-form .btn:hover {
